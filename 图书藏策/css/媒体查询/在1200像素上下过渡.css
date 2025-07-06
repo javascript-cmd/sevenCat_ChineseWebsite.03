@@ -1,0 +1,21 @@
+@media (min-width:1200px) {
+
+	/* 至少 */
+	.number-source,
+	.lecture-channels,
+	hr {
+		width: 1200px;
+		margin-left: 50%;
+		transform: translate(-50%);
+	}
+}
+
+@media (max-width:1200px) {
+
+	/* 至多 */
+	.number-source,
+	.lecture-channels,
+	hr {
+		width: 100%;
+	}
+}

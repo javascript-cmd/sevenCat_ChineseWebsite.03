@@ -1,0 +1,81 @@
+.header {
+	width: 102%;
+	background-color: #ffed21;
+	height: 80px;
+}
+
+.nav {
+	display: flex;
+	justify-content: space-around;
+	height: 75px;
+}
+
+.nav .right {
+	width: 400px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.nav .right div a span {
+	position: absolute;
+	height: 35px;
+	width: 59px;
+	line-height: 32px;
+	text-align: center;
+	color: black;
+	font-weight: bolder;
+	border-radius: 0 15px 15px 0;
+	background-color: #e78a07;
+	transition: all 0.3s;
+}
+
+.nav .right div a:hover span {
+	background-color: #ff541b;
+}
+
+.nav .right .icon-bianzu15 {
+	font-weight: bolder;
+	color: #45228c;
+	transition: all 0.3s linear;
+}
+
+.nav .right .icon-bianzu15:hover {
+	color: #ab4d0f;
+}
+
+.nav .right div input {
+	resize: none;
+	font-size: 15px;
+	outline: none;
+	height: 35px;
+	width: 180px;
+	border: 2px solid #e78a07;
+	border-radius: 15px 0 0 15px;
+	border-right: none;
+	caret-color: #8c1f21;
+	padding: 0 10px;
+}
+
+/*  */
+.nav .left {
+	display: flex;
+}
+
+.nav .left .as {
+	width: 300px;
+	display: flex;
+	align-items: center;
+}
+
+.nav .left .as img {
+	border-radius: 8px;
+	width: 60px;
+	height: 50px;
+}
+
+.nav .left .as .sevenCatWord {
+	font-size: 38px;
+	font-family: '华文行楷';
+	font-weight: bolder;
+}

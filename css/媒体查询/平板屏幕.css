@@ -1,0 +1,124 @@
+@media (min-width:900px) and (max-width:992px) {
+
+	.popular_content {
+		width: 100%;
+		position: relative;
+		left: 40px;
+	}
+
+	.div h2 a {
+		position: relative;
+		left: 535px;
+		top: 5px;
+	}
+
+	.div h2 {
+		margin: 20px 0;
+		display: block;
+	}
+
+	.piv2 .qimao_data li {
+		width: 450px;
+	}
+
+	.piv2 {
+		width: 65%;
+		margin-left: 19%;
+	}
+
+	.piv2 h4 {
+		margin-left: 20px;
+	}
+
+	.qimao_data {
+		margin-left: 20px;
+	}
+
+	.content_Two {
+		width: 800px;
+		position: relative;
+		left: 95px;
+	}
+
+	aside {
+		display: block;
+	}
+
+	.content_One {
+		position: relative;
+		left: 22%;
+	}
+
+	.piv1 .content_One #via_policy,
+	#writer_place {
+		margin-left: 59px;
+	}
+
+
+	.youcetu_pic_cssOne {
+		left: -204.4%;
+		top: 54%;
+		width: 80px;
+	}
+
+	.youcetu_pic_cssTwo {
+		left: -204.4%;
+		top: 0;
+		width: 80px;
+		height: 90px;
+	}
+
+	.youcetu a li {
+		padding: 1px 0;
+		font-size: 12px;
+	}
+
+	.youcetu a:nth-child(4) li {
+		font-size: 12px;
+	}
+
+	.youcetu a:last-child li {
+		padding: 2px 0;
+		font-size: 12px;
+	}
+
+	.youcetu {
+		width: 40px;
+		top: 53%;
+		left: 93.8%;
+	}
+
+	.swiper,
+	.header {
+		width: 985px;
+	}
+
+	/*  */
+	.a {
+		width: 100%;
+		height: 150px;
+	}
+
+	nav {
+		width: 990px;
+		flex-direction: column;
+		margin-left: 5%;
+		margin-top: 10px;
+	}
+
+	nav .right .icon-bianzu15 {
+		font-size: 25px;
+
+	}
+
+	nav .right {
+		width: 480px;
+		margin: 30px 23%;
+	}
+
+	.left {
+		position: relative;
+		left: 6%;
+	}
+
+}

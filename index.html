@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>七猫中文网</title>
+
+    <style>
+        html {
+            scroll-behavior: smooth;
+        }
+    </style>
+</head>
+
+<!-- 普通样式 -->
+<link rel="stylesheet" href="css/消除边距.css"/>
+<link rel="stylesheet" href="css/body.css"/>
+<link rel="stylesheet" href="css/banner右侧图.css"/>
+<link rel="stylesheet" href="css/隐形导航.css"/>
+<link rel="stylesheet" href="css/开头导航.css"/>
+<link rel="stylesheet" href="css/右侧图的照片样式.css"/>
+<link rel="stylesheet" href="css/用户登录界面.css"/>
+<link rel="stylesheet" href="css/轮播图.css"/>
+<link rel="stylesheet" href="css/七猫动态.css"/>
+<link rel="stylesheet" href="css/排行榜.css"/>
+
+<!-- 媒体查询的样式 -->
+<link rel="stylesheet" href="css/媒体查询/小于576像素屏幕.css"/>
+<link rel="stylesheet" href="css/媒体查询/手机屏幕.css"/>
+<link rel="stylesheet" href="css/媒体查询/平板屏幕.css"/>
+<link rel="stylesheet" href="css/媒体查询/笔记本电脑屏幕.css"/>
+<link rel="stylesheet" href="css/媒体查询/大于等于1200像素设备.css"/>
+
+<link rel="stylesheet" href="css/swiper-bundle.min.css"/>
+
+<!-- 字体图标样式 -->
+<link rel="stylesheet" href="font_4820390_am071xkskne/iconfont.css"/>
+
+<!-- icon图标 -->
+<link rel="shortcut icon" href="https://cdn-front.qimao.com/global/static/images/favicon2022.ico"
+      type="image/x-icon"/>
+
+
+<link rel="stylesheet" href="css/客服热线.css"/>
+<link rel="stylesheet" href="font_4820390_5obbsvtrcvg/iconfont.css"/>
+
+<body>
+
+<div class="a">
+    <!-- 导航栏 -->
+    <nav>
+        <!-- 1 -->
+        <div class="left">
+            <div class="as">
+                <!--  -->
+                <img src="img/VCG21400230474.jpg" alt=""/>
+                <!--  -->
+                <span class="sevenCatWord">七猫中文网</span>
+            </div>
+
+            <ul id="pageNav">
+                <a>
+                    <li style="cursor: pointer;">
+                        首页
+                        <hr size="5px" color="#e78a07" width="25px" style="margin: 0 auto;"/>
+                    </li>
+                </a>
+                <a href="#paihangbang">
+                    <li> 排行榜</li>
+                </a>
+                <a href="掌阅精选/掌阅精选.html" target="_blank">
+                    <li>掌阅精选</li>
+                </a>
+                <a href="图书藏策/图书藏策.html" target="_blank">
+                    <li>图书藏策</li>
+                </a>
+                <a style="cursor: pointer;">
+                    <li>客服热线</li>
+                </a>
+            </ul>
+        </div>
+
+        <!-- 2 -->
+        <div class="right">
+            <div style="width: 300px;flex: 7;">
+                <!-- 搜索框架 -->
+                <input type="text" value="" placeholder="请输入书名/作者/主角"/>
+                <a style="text-decoration: none;" href="#">
+                    <!--  -->
+                    <span>搜索</span>
+                </a>
+            </div>
+
+            <!-- 立即登录 -->
+            <a class="iconfont icon-bianzu15" style="text-decoration: none;flex: 3;margin-left: 30px;">
+                立即登录
+            </a>
+        </div>
+    </nav>
+</div>
+
+<!-- 真正导航栏 -->
+<div class="header">
+    <div class="nav">
+
+        <!-- 1 -->
+        <div class="left">
+            <div class="as">
+                <!--  -->
+                <img src="img/VCG21400230474.jpg" alt=""/>
+                <!--  -->
+                <span class="sevenCatWord">七猫中文网</span>
+            </div>
+        </div>
+
+        <!--  -->
+        <div class="content-read" style="flex: 3; justify-items: center; align-self: center;">
+            <ul style="list-style: none; font-size: 20px; display: flex;width: 100%;text-align: center;">
+                <a href="掌阅精选/掌阅精选.html" target="_blank" style="text-decoration: none;flex: 3;">
+                    <li
+                            style="color: black;font-weight: bolder;font-family: '华文楷体';border: 2px dashed hotpink;">
+                        掌阅精选
+                    </li>
+                </a>
+                |
+                <a href="图书藏策/图书藏策.html" target="_blank" style="text-decoration: none; flex: 4;">
+                    <li
+                            style="color: black;font-weight: bolder;font-family: '华文楷体';border: 3px dashed hotpink;">
+                        图书藏策
+                    </li>
+                </a>
+                |
+                <a style="text-decoration: none;flex: 3; cursor: pointer;">
+                    <li
+                            style="color: black;font-weight: bolder;font-family: '华文楷体';border: 2px dashed hotpink;">
+                        客服热线
+                    </li>
+                </a>
+
+            </ul>
+        </div>
+
+
+        <!-- 2 -->
+        <div class="right">
+            <div style="width: 300px;flex: 7;">
+                <!-- 搜索框架 -->
+                <input type="text" value="" placeholder="请输入书名/作者/主角"/>
+                <a style="text-decoration: none;" href="#">
+                    <!--  -->
+                    <span>搜索</span>
+                </a>
+            </div>
+
+            <!-- 立即登录 -->
+            <a href="#" class="iconfont icon-bianzu15" style="text-decoration: none;flex: 3;margin-left: 30px;">
+                立即登录
+            </a>
+        </div>
+    </div>
+</div>
+
+<!-- 轮播图 -->
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide">
+            <a href="https://www.qimao.com/activity/zhengwen/detail/376?forceMode=1" target="_blank">
+                <img
+                        style="background-image:url(img/VCG211408179968.jpg);background-repeat: no-repeat;background-size: 100% 100%;border-radius: 10px;"/>
+            </a>
+
+        </div>
+
+        <div class="swiper-slide">
+            <a href="https://www.qimao.com/activity/zhengwen/detail/369?forceMode=1" target="_blank">
+                <img
+                        style="background-image:url(img/VCG41183357547.jpg);background-repeat: no-repeat;background-size: 100% 100%;border-radius: 10px;"/>
+            </a>
+
+        </div>
+
+        <div class="swiper-slide">
+            <a href="https://www.qimao.com/gonggao/680ddf3787cbf93d6248b00b/" target="_blank">
+                <img
+                        style="background-image:url(img/VCG41N1199233312.jpg);background-repeat: no-repeat;background-size: 100% 100%;border-radius: 10px;"/>
+            </a>
+
+        </div>
+
+        <div class="swiper-slide">
+            <a href="https://www.qimao.com/shuku/215243/" target="_blank">
+                <img
+                        style="background-image:url(img/VCG211562522053.jpg);background-repeat: no-repeat;background-size: 100% 100%;border-radius: 10px;"/>
+            </a>
+
+        </div>
+
+        <div class="swiper-slide">
+            <a href="https://www.qimao.com/fuli/" target="_blank">
+                <img
+                        style="background-image:url(img/VCG211352165369.jpg);background-repeat: no-repeat;background-size: 100% 100%;border-radius: 10px;"/>
+            </a>
+
+        </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+    <div class="swiper-scrollbar"></div>
+</div>
+
+<script src="js/swiper-bundle.min.js"></script>
+
+<!-- 七猫动态 -->
+<aside>
+    <!-- 1 -->
+    <div class="piv1">
+        <!--  -->
+        <div class="content_One">
+            <!--  -->
+            <div id="writer_place">
+                <h3>作家专区</h3>
+                <p>
+                    <a href="https://zuozhe.qimao.com/front/register-login/login?redirect=%2Ffront%2Findex&query="
+                       target="_blank">点击进入 &nbsp;></a>
+                </p>
+            </div>
+            <!--  -->
+            <div id="via_policy">
+                <h3>签约政策</h3>
+                <p>
+                    <a href="https://www.qimao.com/fuli/" target="_blank">高价保底 &nbsp;>
+                    </a>&nbsp;&nbsp;&nbsp;&nbsp;
+                    <a href="https://www.qimao.com/fuli/" target="_blank"> 无责全勤 &nbsp;></a>
+                </p>
+            </div>
+        </div>
+        <!--  -->
+        <div class="content_Two">
+            <!--  -->
+            <ul class="ul_one">
+                <a href="https://www.qimao.com/shuku/1-a-a-a-a-a-a-click-1/" style="text-decoration: none;"
+                   target="_blank">
+                    <h4>女生原创</h4>
+                </a> &#124;
+                <a href="https://www.qimao.com/shuku/a-1-8-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>总裁豪门</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-2-16-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>种田经商</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-4-21-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>玄幻仙侠</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-2-209-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>宫闱宅斗</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-2-216-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>古代情缘</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-1-278-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>年代重生</li>
+                </a>
+
+            </ul>
+
+            <!--  -->
+            <ul class="ul_two">
+                <a href="https://www.qimao.com/shuku/0-a-a-a-a-a-a-click-1/" style="text-decoration: none;"
+                   target="_blank">
+                    <h4>男生原创</h4>
+                </a>&#124;
+                <a href="https://www.qimao.com/shuku/a-202-37-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>东方玄幻</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-202-39-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>异界大陆</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-56-57-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>穿越历史</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-203-219-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>异术超能</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-203-220-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>都市高手</li>
+                </a>
+                <a href="https://www.qimao.com/shuku/a-203-224-a-a-a-a-click-1/"
+                   style="text-decoration: none;color: black;" target="_blank">
+                    <li>都市修仙</li>
+                </a>
+            </ul>
+        </div>
+    </div>
+
+    <!-- 2 -->
+    <div class="piv2">
+        <!--  -->
+        <h4>
+            <a href="https://www.qimao.com/site/notice-1/" style="text-decoration: none;"
+               target="_blank">七猫动态&nbsp;></a>
+        </h4>
+        <!--  -->
+        <ul class="qimao_data"></ul>
+    </div>
+
+</aside>
+
+<!-- 排行榜 -->
+<div class="div" id='paihangbang'>
+    <h2>
+        <a href="https://www.qimao.com/paihang" style="text-decoration: none;" target="_blank">
+            排行榜&nbsp;&nbsp;>
+        </a>
+    </h2>
+</div>
+
+<!--  -->
+<div class="popular_content">
+    <div id="popular_girl">
+        <h3>
+            <a href="https://www.qimao.com/paihang/girl/hot/date" target="_blank"
+               style="text-decoration: none;">
+                大热榜·女生&nbsp;&nbsp;>
+            </a>
+        </h3>
+        <ul class="popular_girlOne"></ul>
+    </div>
+    <div id="popular_boy">
+        <h3>
+            <a href="https://www.qimao.com/paihang/boy/hot/date" target="_blank" style="text-decoration: none;">
+                大热榜·男生&nbsp;&nbsp;>
+            </a>
+        </h3>
+        <ul class="popular_boyOne"></ul>
+    </div>
+    <div id="newBook_girl">
+        <h3>
+            <a href="https://www.qimao.com/paihang/girl/new/date" target="_blank"
+               style="text-decoration: none;">
+                新书榜·女生&nbsp;&nbsp;>
+            </a>
+        </h3>
+        <ul class="newBook_girlOne"></ul>
+    </div>
+    <div id="newBook_boy">
+        <h3>
+            <a href="https://www.qimao.com/paihang/boy/new/date" target="_blank" style="text-decoration: none;">
+                新书榜·男生&nbsp;&nbsp;>
+            </a>
+        </h3>
+        <ul class="newBook_boyOne"></ul>
+    </div>
+</div>
+
+<script src="js/排行榜.js"></script>
+
+<!-- 登录界面 -->
+<div class="overlay">
+    <div class="white-area">
+        <span id="x">⌫</span>
+
+        <h2>用户登录界面</h2>
+
+        <div class="two_input">
+            <input type="text" placeholder="填写手机号" class="numbera" maxlength="11">
+            <span id="spanOne"
+                  style="position: absolute;top: 43.5%;left: 12%;font-size: 19px; color: red;font-weight: bolder;"></span>
+            <br/>
+            <input type="text" class="pwd" placeholder="验证码" maxlength="7"/>
+            <span id="spanTwo"
+                  style="position: absolute;top: 65.5%;left: 12%;font-size: 19px; color: red;font-weight: bolder;"></span>
+        </div>
+
+        <div style="position: relative; top: 5%;left: 11%;" class="mui-input-row mui-checkbox ">
+            <input style="cursor: pointer;" name="Checkbox" type="checkbox" id="checkBox">
+            我已同意<span class="agreenment">《用户协议》</span>和<span class="private">《隐私协议》</span>
+        </div>
+
+        <!--  -->
+        <button></button>
+    </div>
+</div>
+
+<!-- 右侧图 -->
+<div class="all">
+    <ul class="youcetu">
+        <a>
+            <li data-id="0">作家<br>助手</li>
+        </a>
+        <a href="https://xiaoshuo.wtzw.com/" target="_blank">
+            <li data-id="1">免费<br>小说</li>
+        </a>
+        <a href="https://www.qimao.com/fuli/?type=editor" target="_blank">
+            <li data-id="2">联系<br>编辑</li>
+        </a>
+        <a class="w">
+            <li data-id="3">公众号</li>
+        </a>
+        <a>
+            <li data-id="4">
+                <img data-id="4" src="img/向上、箭头.png" alt=""/>
+                <p data-id="4">顶部</p>
+            </li>
+        </a>
+    </ul>
+</div>
+
+<div class="kefu-bodyPage">
+    <!-- 客服热线 -->
+    <div class="kefu-page">
+        <!-- title -->
+        <div class="kefu-title">
+            <div class="stateOne">
+                <button style="cursor: pointer;">退出</button>
+                <img class="imgOne" src="img/客服热线.png"/>
+                <span>客服热线</span>
+            </div>
+
+            <ul class="stateTwo">
+                <li style="list-style: none;">
+                    <img class="imgTwo" src="img/在线状态.png" alt=""/>
+                </li>
+                <li style="list-style: none;">
+                    <p>在线</p>
+                </li>
+            </ul>
+
+        </div>
+
+        <!-- content -->
+        <div class="kefu-content">
+            <div class="robotMessage">
+                您好，您遇到了什么问题？可以直接向我提问。
+            </div>
+        </div>
+
+        <!-- sendMessage-->
+        <div class="kefu-sendMessage">
+            <ul>
+                <li>
+                    <input type="text" placeholder="请输入内容..."/>
+                </li>
+                <li>
+                    <p class="iconfont icon-fasong"></p>
+                </li>
+                <li>
+                    <img src="img/添加.svg" alt=""/>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+</body>
+
+<!-- API交互式功能 -->
+<script src="js/客服热线.js"></script>
+<script src="js/yocetu.js"></script>
+<script src="js/navJS.js"></script>
+<script src="js/navJS与youcetu.js"></script>
+<script src="js/搜索框.js"></script>
+<script src="js/登录界面.js"></script>
+<script src="js/轮播图.js"></script>
+<script src="js/七猫动态.js"></script>
+
+</html>

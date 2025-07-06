@@ -1,0 +1,138 @@
+@media (max-width:576px) {
+
+	.div h2 a {
+		position: relative;
+		left: 510px;
+		top: -15px;
+
+	}
+
+	.div h2 {
+		margin-top: 50px;
+		display: block;
+	}
+
+	.popular_content {
+		width: 1200px;
+	}
+
+	#popular_girl h3,
+	#popular_boy h3,
+	#newBook_boy h3,
+	#newBook_girl h3 {
+		position: relative;
+		left: 9px;
+	}
+
+	.piv2 .qimao_data li {
+		width: 450px;
+	}
+
+	.piv2 {
+		width: 600px;
+		margin-left: 260px;
+	}
+
+	.piv2 h4 {
+		margin-left: 50px;
+	}
+
+	.qimao_data {
+		margin-left: 50px;
+	}
+
+	.content_Two {
+		position: relative;
+		left: 200px;
+		width: 790px;
+	}
+
+	aside {
+		display: block;
+	}
+
+	.content_One {
+		position: relative;
+		left: 310px;
+	}
+
+	.piv1 .content_One #via_policy,
+	#writer_place {
+		margin-left: 59px;
+	}
+
+
+	.all {
+		display: none;
+	}
+
+	.swiper,
+	.header {
+		width: 1200px;
+	}
+
+	.a {
+		width: 100%;
+		height: 200px;
+		top: -220px;
+		transition: top .1s linear;
+	}
+
+	.youcetu {
+		display: none;
+	}
+
+	nav {
+		flex-direction: column;
+		margin-left: 1.5%;
+		margin-top: 10px;
+	}
+
+	nav .right {
+		width: 99.9%;
+		flex-direction: column;
+		margin-top: 10px;
+	}
+
+	nav .right div {
+		position: relative;
+		left: 8.5%;
+	}
+
+	nav .left {
+		display: block;
+	}
+
+	nav .left #pageNav {
+		width: 100%;
+	}
+
+	nav .left .as {
+		position: relative;
+		width: 99.9%;
+		justify-content: center;
+	}
+
+	nav .left #pageNav a {
+		font-size: 17px;
+
+	}
+
+	nav .left #pageNav a:first-child {
+		font-size: 18px;
+		font-weight: bolder;
+	}
+
+	nav .right {
+		margin-left: -40px;
+		width: 99.9%;
+	}
+
+	nav .right .icon-bianzu15 {
+		font-size: 20px;
+		position: absolute;
+		top: 82%;
+		left: 42%;
+	}
+
+}

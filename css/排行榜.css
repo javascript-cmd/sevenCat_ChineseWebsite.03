@@ -1,0 +1,140 @@
+ .img_one,
+ .img_two,
+ .img_three {
+ 	vertical-align: middle;
+ 	width: 25px;
+ }
+
+ .popular_girlOne li,
+ .popular_boyOne li,
+ .newBook_girlOne li,
+ .newBook_boyOne li {
+ 	color: black;
+ 	list-style: none;
+ 	padding: 2px 0;
+ 	margin: 18px 0px;
+ 	font-size: 13px;
+ }
+
+ .popular_girlOne li:hover,
+ .popular_boyOne li:hover,
+ .newBook_girlOne li:hover,
+ .newBook_boyOne li:hover {
+ 	color: orangered;
+ }
+
+ .popular_content {
+ 	display: flex;
+ 	justify-content: center;
+ 	position: relative;
+ 	left: -2px;
+ 	top: 40px;
+ }
+
+ .div h2 {
+ 	display: flex;
+ 	justify-content: space-around;
+ 	position: relative;
+ 	left: -450px;
+ 	top: 45px;
+ }
+
+ .div h2 a {
+ 	background: linear-gradient(230deg, rgb(8, 255, 4), rgb(255, 15, 15));
+ 	background-clip: text;
+ 	-webkit-text-fill-color: transparent;
+ 	transition: all 0.2s linear;
+ }
+
+ .div h2 a:hover {
+ 	color: orangered;
+ }
+
+ #popular_girl,
+ #popular_boy,
+ #newBook_boy,
+ #newBook_girl {
+ 	width: 250px;
+ 	margin: 20px 20px;
+ 	background-color: #ffffff;
+ 	border-radius: 8px;
+ }
+
+ #popular_girl h3 a,
+ #popular_boy h3 a,
+ #newBook_boy h3 a,
+ #newBook_girl h3 a {
+ 	color: black;
+ 	transition: all 0.2s linear;
+ }
+
+ #popular_girl h3 a:hover,
+ #popular_boy h3 a:hover,
+ #newBook_boy h3 a:hover,
+ #newBook_girl h3 a:hover {
+ 	color: orangered;
+ }
+
+ .popular_girlOne,
+ .popular_boyOne,
+ .newBook_girlOne,
+ .newBook_boyOne {
+ 	margin-top: 18px;
+ }
+
+ .popular_girlOne li a:nth-child(4) li,
+ .popular_girlOne li a:nth-child(5) li,
+ .popular_girlOne li a:nth-child(6) li,
+ .popular_girlOne li a:nth-child(7) li,
+ .popular_girlOne li a:nth-child(8) li,
+ .popular_girlOne li a:nth-child(9) li,
+ .popular_girlOne li a:nth-child(10) li {
+ 	margin-left: 8.5px;
+ 	line-height: 23px;
+ }
+
+ .popular_boyOne li a:nth-child(4) li,
+ .popular_boyOne li a:nth-child(5) li,
+ .popular_boyOne li a:nth-child(6) li,
+ .popular_boyOne li a:nth-child(7) li,
+ .popular_boyOne li a:nth-child(8) li,
+ .popular_boyOne li a:nth-child(10) li {
+ 	margin-left: 5.5px;
+ 	line-height: 30px;
+ }
+
+ .popular_boyOne li a:nth-child(9) li {
+ 	margin-left: 5.5px;
+ 	line-height: 23px;
+ }
+
+ .newBook_girlOne li a:nth-child(4) li,
+ .newBook_girlOne li a:nth-child(5) li,
+ .newBook_girlOne li a:nth-child(6) li,
+ .newBook_girlOne li a:nth-child(7) li,
+ .newBook_girlOne li a:nth-child(8) li,
+ .newBook_girlOne li a:nth-child(9) li,
+ .newBook_girlOne li a:nth-child(10) li {
+ 	margin-left: 8.5px;
+ 	line-height: 26px;
+ }
+
+ .newBook_boyOne li a:nth-child(4) li,
+ .newBook_boyOne li a:nth-child(5) li,
+ .newBook_boyOne li a:nth-child(6) li,
+ .newBook_boyOne li a:nth-child(7) li,
+ .newBook_boyOne li a:nth-child(8) li,
+ .newBook_boyOne li a:nth-child(9) li,
+ .newBook_boyOne li a:nth-child(10) li {
+ 	margin-left: 6.5px;
+ 	line-height: 17.5px;
+ }
+
+ #popular_girl h3,
+ #popular_boy h3,
+ #newBook_girl h3,
+ #newBook_boy h3 {
+ 	position: relative;
+ 	top: 20px;
+ 	left: 42px;
+ }

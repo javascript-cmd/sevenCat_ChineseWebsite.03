@@ -1,0 +1,44 @@
+{
+  "id": "4820390",
+  "name": "项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "802974",
+      "name": "数据",
+      "font_class": "shuju",
+      "unicode": "e651",
+      "unicode_decimal": 58961
+    },
+    {
+      "icon_id": "5088886",
+      "name": "多端",
+      "font_class": "duoduan",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "6054182",
+      "name": "多元",
+      "font_class": "duoyuan",
+      "unicode": "e695",
+      "unicode_decimal": 59029
+    },
+    {
+      "icon_id": "10593755",
+      "name": "书籍,书本,资源_jurassic",
+      "font_class": "jurassic_book",
+      "unicode": "e697",
+      "unicode_decimal": 59031
+    },
+    {
+      "icon_id": "20377627",
+      "name": "功能介绍",
+      "font_class": "tubiaozhuanqu-22",
+      "unicode": "e645",
+      "unicode_decimal": 58949
+    }
+  ]
+}

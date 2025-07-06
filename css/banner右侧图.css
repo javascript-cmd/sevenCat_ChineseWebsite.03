@@ -1,0 +1,81 @@
+.youcetu a li {
+	list-style: none;
+	border-bottom: 2px solid #f0f0f0;
+	padding: 5px 0;
+	text-align: center;
+	cursor: pointer;
+	font-size: 20px;
+	line-height: 25px;
+	font-family: '华文楷体';
+	font-weight: 400;
+}
+
+.youcetu a {
+	text-decoration: none;
+	color: black;
+}
+
+.youcetu a li:hover {
+	transition: all 0.5s;
+	color: whitesmoke;
+}
+
+.youcetu a:last-child li img {
+	width: 20px;
+}
+
+.youcetu a:last-child:hover li img {
+	animation: upPic 0.8s 1 linear;
+}
+
+@keyframes upPic {
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+.youcetu a:nth-child(4) li {
+	font-size: 15px;
+	font-weight: bolder;
+}
+
+.youcetu a:last-child li {
+	padding: 1px 0;
+	font-size: 15px;
+}
+
+.youcetu a li {
+	font-size: 15px;
+}
+
+.youcetu a li:last-child p {
+	margin-top: -8px;
+}
+
+.youcetu a:last-child {
+	display: none;
+	animation: sihua 1s linear forwards;
+}
+
+@keyframes sihua {
+	from {
+		opacity: 0;
+	}
+
+	to {
+		opacity: 1;
+	}
+}
+
+.youcetu {
+	z-index: 2;
+	position: fixed;
+	top: 49%;
+	left: 93%;
+	width: 50px;
+	background-color: #fff;
+}
+
+.youcetu a:hover li {
+	background-color: #ff8f1e;
+}

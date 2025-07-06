@@ -1,0 +1,79 @@
+{
+  "id": "4820390",
+  "name": "项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "7450640",
+      "name": "视频",
+      "font_class": "shipin",
+      "unicode": "e665",
+      "unicode_decimal": 58981
+    },
+    {
+      "icon_id": "23949541",
+      "name": "影视",
+      "font_class": "yingshi",
+      "unicode": "ec69",
+      "unicode_decimal": 60521
+    },
+    {
+      "icon_id": "27680551",
+      "name": "danganhe",
+      "font_class": "danganhe",
+      "unicode": "e630",
+      "unicode_decimal": 58928
+    },
+    {
+      "icon_id": "29234271",
+      "name": "数据字典@2x",
+      "font_class": "a-shujuzidian2x",
+      "unicode": "e6df",
+      "unicode_decimal": 59103
+    },
+    {
+      "icon_id": "32507775",
+      "name": "文档",
+      "font_class": "wendang",
+      "unicode": "e829",
+      "unicode_decimal": 59433
+    },
+    {
+      "icon_id": "34659674",
+      "name": "1 (1)",
+      "font_class": "a-11",
+      "unicode": "e663",
+      "unicode_decimal": 58979
+    },
+    {
+      "icon_id": "35731519",
+      "name": "题库优势",
+      "font_class": "tikuyoushi",
+      "unicode": "e608",
+      "unicode_decimal": 58888
+    },
+    {
+      "icon_id": "36047737",
+      "name": "案例库",
+      "font_class": "anliku",
+      "unicode": "e6a8",
+      "unicode_decimal": 59048
+    },
+    {
+      "icon_id": "40652240",
+      "name": "创建数字古籍",
+      "font_class": "chuangjianshuziguji",
+      "unicode": "e65a",
+      "unicode_decimal": 58970
+    },
+    {
+      "icon_id": "33553994",
+      "name": "古籍出版-02",
+      "font_class": "gujichuban-02",
+      "unicode": "e643",
+      "unicode_decimal": 58947
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+@media (min-width:576px) and (max-width:900px) {
+
+	.div {
+		display: block;
+	}
+
+	.div h2 {
+		width: 200px;
+		margin: 5px 610px;
+	}
+
+	.popular_content {
+		width: 1000px;
+		margin: 0 140px;
+
+	}
+
+	.piv2 .qimao_data li {
+		width: 450px;
+	}
+
+	.piv2 {
+		width: 600px;
+		margin-left: 300px;
+	}
+
+	.piv2 h4 {
+		margin-left: 50px;
+	}
+
+	.qimao_data {
+		margin-left: 50px;
+	}
+
+	.content_Two {
+		position: relative;
+		left: 215px;
+		width: 800px;
+	}
+
+	aside {
+		display: block;
+	}
+
+	.content_One {
+		position: relative;
+		left: 350px;
+	}
+
+	.piv1 .content_One #via_policy,
+	#writer_place {
+		margin-left: 59px;
+	}
+
+
+	.all {
+		display: none;
+	}
+
+	.a {
+		width: 1200px;
+		height: 150px;
+	}
+
+	/* 正向屏幕 */
+	.swiper,
+	.header {
+		width: 1200px;
+	}
+
+	.youcetu {
+		display: none;
+	}
+
+	nav {
+		flex-direction: column;
+		margin: 10px -12%;
+	}
+
+	nav .right .icon-bianzu15 {
+		font-size: 25px;
+
+	}
+
+	nav .right {
+		width: 480px;
+		margin: 30px 29.5%;
+	}
+
+	nav .left #pageNav {
+		width: 420px;
+	}
+
+	nav .left #pageNav a {
+		font-size: 22px;
+
+	}
+
+	nav .left #pageNav a:first-child {
+		font-size: 25px;
+		font-weight: bolder;
+	}
+
+	.left {
+		position: relative;
+		left: 230px;
+	}
+
+	.content-read {
+		display: none;
+	}
+}

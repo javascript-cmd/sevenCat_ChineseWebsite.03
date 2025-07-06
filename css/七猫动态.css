@@ -1,0 +1,155 @@
+aside .piv1 .content_One {
+	display: flex;
+	width: 550px;
+}
+
+aside .piv1 {
+
+	margin: 10px -10px;
+	left: 20px;
+}
+
+.piv1 .content_One #writer_place {
+	width: 300px;
+	height: 140px;
+	background-image: url(../img/VCG211329597298.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -72px;
+	border-radius: 8px;
+	margin: 0 4px;
+
+}
+
+.piv1 .content_One #via_policy {
+	width: 300px;
+	height: 140px;
+	background-image: url(../img/VCG211443754166.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0px -30px;
+	border-radius: 8px;
+	margin: 0 4px;
+}
+
+#writer_place h3,
+#via_policy h3 {
+	position: relative;
+	top: 5px;
+	left: 10px;
+	color: #892fad;
+}
+
+#writer_place p,
+#via_policy p {
+	position: relative;
+	top: 89px;
+	left: 10px;
+	font-weight: bolder;
+}
+
+#writer_place p a,
+#via_policy p a {
+	color: hotpink;
+	text-decoration: none;
+	transition: all 0.4s linear;
+}
+
+#writer_place p a:hover,
+#via_policy p a:hover {
+	color: #3609ec;
+}
+
+aside {
+	display: flex;
+	justify-content: center;
+	position: relative;
+	left: 20px;
+	top: 20px;
+}
+
+.content_Two {
+	height: 120px;
+	background-color: #f3f3f3;
+	margin: 10px 0;
+	border-radius: 5px;
+
+}
+
+.content_Two .ul_one li,
+.ul_two li {
+	cursor: pointer;
+	list-style: none;
+	font-size: 14px;
+}
+
+.content_Two .ul_one li:hover,
+.ul_two li:hover {
+	color: #d3c420;
+}
+
+.content_Two .ul_one h4,
+.ul_two h4 {
+	color: grey;
+	font-size: 15px;
+	margin-top: 4px;
+	cursor: pointer;
+}
+
+.content_Two .ul_one h4:hover,
+.ul_two h4:hover {
+	color: #d3c420;
+}
+
+.content_Two .ul_one,
+.ul_two {
+	display: flex;
+	justify-content: space-around;
+	padding: 14px 0;
+}
+
+.ul_one li,
+.ul_two li {
+	margin: 6px 0;
+}
+
+.piv2 {
+	width: 450px;
+	border-radius: 8px;
+	background-color: aliceblue;
+	margin: 10px 30px;
+	height: 270px;
+
+}
+
+.piv2 h4 a {
+	color: darkgoldenrod;
+	font-size: 25px;
+	text-decoration: none;
+	margin-left: 10px;
+}
+
+.piv2 .qimao_data a li {
+	list-style: none;
+	font-size: 14px;
+	cursor: pointer;
+	margin: 16px 10px;
+
+}
+
+.qimao_data a:nth-child(1) li {
+	color: #f31215;
+}
+
+.qimao_data a:nth-child(2) li,
+a:nth-child(3) li,
+a:nth-child(4) li,
+a:nth-child(5) li,
+a:nth-child(6) li {
+	color: black;
+}
+
+.qimao_data a li:hover,
+.piv2 h4 a:hover {
+	color: #d3c420;
+}

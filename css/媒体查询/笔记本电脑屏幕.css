@@ -1,0 +1,97 @@
+@media (min-width:992px) and (max-width:1200px) {
+
+	aside {
+		position: relative;
+		left: 80px;
+	}
+
+
+	.popular_content {
+		width: 100%;
+		margin-left: 70px;
+	}
+
+	.div h2 a {
+		position: relative;
+		left: 75px;
+		top: -10px;
+	}
+
+	.piv1 {
+		position: relative;
+		left: 20px;
+	}
+
+	.piv2 .qimao_data li {
+		width: 450px;
+	}
+
+	.piv2 {
+		margin-left: 35px;
+	}
+
+	.youcetu_pic_cssOne {
+		left: -204.4%;
+		top: 54%;
+		width: 80px;
+	}
+
+	.youcetu_pic_cssTwo {
+		left: -204.4%;
+		top: 0;
+		width: 80px;
+		height: 90px;
+	}
+
+	/*  */
+	.youcetu {
+		width: 40px;
+		top: 53%;
+		left: 93.8%;
+	}
+
+	.youcetu a li {
+		padding: 1px 0;
+		font-size: 12px;
+	}
+
+	.youcetu a:nth-child(4) li {
+		font-size: 12px;
+	}
+
+	.youcetu a:last-child li {
+		padding: 2px 0;
+		font-size: 12px;
+	}
+
+	/*  */
+	.a {
+		width: 1200px;
+		height: 150px;
+	}
+
+	.header,
+	.swiper {
+		width: 1200px;
+	}
+
+
+	nav {
+		flex-direction: column;
+		margin-left: 10%;
+		margin-top: 10px;
+	}
+
+	nav .right .icon-bianzu15 {
+		font-size: 25px;
+	}
+
+	nav .right {
+		width: 480px;
+		margin-top: 30px;
+		margin-left: 16%;
+	}
+
+
+
+}

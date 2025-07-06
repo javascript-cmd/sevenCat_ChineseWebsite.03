@@ -1,0 +1,16 @@
+{
+  "id": "4820390",
+  "name": "项目",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "4740182",
+      "name": "影视",
+      "font_class": "yingshi",
+      "unicode": "e603",
+      "unicode_decimal": 58883
+    }
+  ]
+}

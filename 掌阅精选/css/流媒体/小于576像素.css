@@ -1,0 +1,68 @@
+@media (max-width:576px) {
+
+	/*  */
+	.rich-productsOne .rr img {
+		width: 90%;
+		height: 230px;
+	}
+
+	.rich-productsOne ul .iconfont {
+		font-size: 16px;
+	}
+
+	.rich-products h3 {
+		font-size: 35px;
+	}
+
+	.rich-productsOne .rr h4 {
+		font-size: 25px;
+	}
+
+	.rich-productsOne .rr p {
+		font-size: 14px;
+	}
+
+
+	/*  */
+	.range-products .a {
+		font-size: 35px;
+	}
+
+	.range-products .ulOne {
+		flex-wrap: wrap;
+	}
+
+	.range-products .ulOne .liOne {
+		border: 2px dotted rgb(45, 169, 222);
+		width: 100%;
+		margin-top: 8px;
+	}
+
+	.range-products .ulOne li #nameOne {
+		margin-top: 5px;
+		font-size: 20px;
+	}
+
+	.range-products .ulOne li #wordOne {
+		font-size: 15px;
+	}
+
+	.range-products .ulOne li .picOne {
+		margin-top: 12px;
+		width: 30px;
+	}
+
+	/*  */
+	.ulOne .liOne:hover #nameOne {
+		margin-top: 35px;
+		font-size: 25px;
+	}
+
+	.ulOne .liOne:hover #wordOne {
+		font-size: 15px;
+	}
+
+	.ulOne .liOne:hover #picTwo {
+		width: 40px;
+	}
+}

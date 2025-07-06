@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "iconfont"; /* Project id 4820390 */
+  src: url('iconfont.woff2?t=1749898939324') format('woff2'),
+       url('iconfont.woff?t=1749898939324') format('woff'),
+       url('iconfont.ttf?t=1749898939324') format('truetype');
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-shuju:before {
+  content: "\e651";
+}
+
+.icon-duoduan:before {
+  content: "\e6df";
+}
+
+.icon-duoyuan:before {
+  content: "\e695";
+}
+
+.icon-jurassic_book:before {
+  content: "\e697";
+}
+
+.icon-tubiaozhuanqu-22:before {
+  content: "\e645";
+}
+
